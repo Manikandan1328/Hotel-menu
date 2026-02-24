@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tasty Time Menu</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+padding:0;
+background:linear-gradient(45deg,#b3003c,#cc0066,#6600cc,#0033cc);
+background-size:400% 400%;
+animation:bgmove 10s infinite alternate;
+}
+
+/* Background Animation */
+
+@keyframes bgmove{
+0%{background-position:left;}
+100%{background-position:right;}
+}
+
+
+/* Menu Card */
+
+.menu{
+width:650px;
+margin:30px auto;
+background:#ffffff;
+padding:20px;
+border-radius:15px;
+box-shadow:0px 0px 20px black;
+}
+
+
+/* Hotel Name */
+
+h1{
+text-align:center;
+color:#cc0066;
+font-size:30px;
+letter-spacing:2px;
+}
+
+/* Table */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+}
+
+/* Heading */
+
+th{
+background:linear-gradient(#cc0000,#ff0066);
+color:white;
+padding:10px;
+font-size:16px;
+}
+
+/* Cells */
+
+td{
+padding:10px;
+text-align:center;
+font-size:15px;
+font-weight:bold;
+}
+
+/* Row Colors */
+
+tr:nth-child(even){
+background:#ffd1dc;
+}
+
+tr:nth-child(odd){
+background:#f3d1ff;
+}
+
+/* Hover Effect */
+
+tr:hover{
+transform:scale(1.02);
+box-shadow:0px 0px 12px #6600cc;
+transition:0.3s;
+}
+
+/* Images */
+
+img{
+width:65px;
+height:65px;
+border-radius:8px;
+box-shadow:0px 0px 8px gray;
+transition:0.4s;
+}
+
+img:hover{
+transform:scale(1.15);
+box-shadow:0px 0px 12px red;
+}
+
+/* Footer */
+
+.footer{
+text-align:center;
+margin-top:10px;
+font-size:14px;
+color:#6600cc;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="menu">
+
+<h1>🍴 Tasty Time 🍴</h1>
+
+<table border="1">
+
+<tr>
+<th>Image</th>
+<th>Category</th>
+<th>Food Item</th>
+<th>Price</th>
+</tr>
+
+
+<tr>
+<td><img src="roll.jpg"></td>
+<td>Starter</td>
+<td>Veg Roll</td>
+<td>₹60</td>
+</tr>
+
+<tr>
+<td><img src="fries.jpg"></td>
+<td>Starter</td>
+<td>French Fries</td>
+<td>₹80</td>
+</tr>
+
+<tr>
+<td><img src="pizza.jpg"></td>
+<td>Starter</td>
+<td>Pizza</td>
+<td>₹120</td>
+</tr>
+
+<tr>
+<td><img src="burger.jpg"></td>
+<td>Starter</td>
+<td>Burgerl</td>
+<td>₹90</td>
+</tr>
+
+<tr>
+<td><img src="veg b.jpg"></td>
+<td>Main Course</td>
+<td>Veg Biryani</td>
+<td>₹150</td>
+</tr>
+
+<tr>
+<td><img src="fried.jpg"></td>
+<td>Main Course</td>
+<td>Fried Rice</td>
+<td>₹130</td>
+</tr>
+
+<tr>
+<td><img src="juice.jpg"></td>
+<td>Drinks</td>
+<td>Fresh Juice</td>
+<td>₹70</td>
+</tr>
+
+<tr>
+<td><img src="cold.jpg"></td>
+<td>Drinks</td>
+<td>Cold Coffee</td>
+<td>₹90</td>
+</tr>
+
+<tr>
+<td><img src="ice cream.jpg"></td>
+<td>Dessert</td>
+<td>Ice Cream</td>
+<td>₹50</td>
+</tr>
+
+<tr>
+<td><img src="dessert.jpg"></td>
+<td>Dessert</td>
+<td>Cake</td>
+<td>₹80</td>
+</tr>
+
+</table>
+
+<div class="footer">
+Welcome to Tasty Time 🍽️
+</div>
+
+</div>
+
+</body>
+</html>
